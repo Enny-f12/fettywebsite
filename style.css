@@ -1,0 +1,664 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+
+}
+.landing_page{
+ background-color: #FFFDF5;
+ width: 100%;
+ height: 730px;
+}
+
+nav .home{
+    
+    color: black;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .home .menu ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 52px;
+    text-align: left;
+
+}
+nav .home .fetty{
+    margin-left: 42px;
+    margin-top: 46px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+}
+nav .home .menu ul li{
+    text-decoration: none;
+    font-size: 24px;
+    list-style: none;
+    
+}
+nav .home .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+nav .home .menu{
+    margin-top: 46px;
+    margin-right: 400px;
+
+}
+
+
+
+.landingpage{
+    display: flex;
+    width: 100%;
+    
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    padding: 0px 42px;
+   
+    
+    
+}
+.landingpage .landing_page_text{
+    flex-basis: 50%;
+    margin-top: -1rem;
+    
+
+
+}
+.landingpage .landing_page_text h1{
+    font-size: 56px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.landingpage .landing_page_text h1 .yellow{
+    color: #f0ba05;
+}
+.landingpage .landing_page_text p{
+font-size: 16px;
+margin-top: 1rem;
+letter-spacing: 1%;
+font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.landingpage .image{
+    flex-basis: 50%;
+    
+
+}
+.landingpage .image img{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    background-color: white;
+    mix-blend-mode: multiply;
+    opacity: 20%;
+}
+.landingpage .landing_page_text a{
+    margin-top: 4rem;
+    padding: 16px 24px;
+    color: #f0ba05;
+    border: 1px solid #f0ba05;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: grab;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.landingpage .landing_page_text .button{
+    margin-top: 3rem;
+}
+
+
+/*preview section*/
+.preview{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5%;
+   padding: 1rem;
+   margin: 3rem auto;
+   
+}
+.preview .first{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+.preview .first .icon{
+    width: 80px;
+    height: 80px;
+}
+.preview .first .text h2{
+    font-size: 40px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+}
+.preview .first .text p{
+    font-size: 16px;
+    letter-spacing: 1%;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0e0e0;
+}
+.your_one_stop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5rem;
+}
+.your_one_stop .image{
+    flex-basis: 48%;
+}
+.your_one_stop .image img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.your_one_stop .your_one_stop_text{
+    flex-basis: 42%;
+}
+.your_one_stop .your_one_stop_text h2{
+    font-size: 48px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.your_one_stop .your_one_stop_text p{
+    font-size: 18px;
+    word-wrap: wrap;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1rem;
+    letter-spacing: 0.5px;
+    max-width: 440px;
+}
+.your_one_stop .your_one_stop_text .button a{
+    margin-top: 4rem;
+    padding: 16px 24px;
+    color: white;
+    background-color: #f0ba05;
+    border: 1px solid #f0ba05;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: grab;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.your_one_stop .your_one_stop_text .button{
+    margin-top: 3rem;
+}
+
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #fffdf5;
+    padding: 48px;
+
+}
+.features .image{
+    flex-basis: 50%;
+}
+.features .image img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.features .text_icon {
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.features .text_icon .start{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+
+}
+.features .text_icon .start .icon{
+    width: 80px;
+    height: 80px;
+}
+.features .text_icon .start .text h2{
+    font-size: 24px;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+.features .text_icon .start .text p{
+    font-size: 14px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #999999;
+    word-wrap: wrap;
+    letter-spacing: 1%;
+    max-width: 300px;
+    
+}
+
+
+
+.about_us{
+
+   padding: 5% 0%;
+   position: relative;
+   width: 100%;
+}
+.about_us .image{
+    
+    width: 600px;
+    margin: auto;
+}
+.about_us .image img{
+    width: 100%;
+}
+.about_us .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.about_us .text{
+    align-items: center;
+    margin-top: 0rem;
+}
+.about_us .text h1{
+    font-size: 48px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+.about_us .overlay .text p{
+    font-size: 18px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    width: 150%;
+    margin: auto;
+    min-width: 100%;
+    margin-left: -10rem;
+    letter-spacing: 0.5px;
+
+}
+
+.about_us .overlay .button{
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+align-items: center;
+justify-content: center;
+}
+.about_us .button .y{
+    margin-top: 0rem;
+    padding: 16px 24px;
+    color: #f0ba05;
+    background-color: none;
+    border: 1px solid #f0ba05;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: grab;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about_us .button .n{
+    margin-top: 0rem;
+    padding: 16px 24px;
+    color: white;
+    background-color: #f0ba05;
+    border: 1px solid #f0ba05;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: grab;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about_us .button{
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.how_it_works{
+    align-items: center;
+    width: 100%;
+    padding: 12% 8%;
+    background-color: #FFFDF5;
+}
+.how_it_works .texts{
+    text-align: center;
+}
+.how_it_works .texts h2{
+    font-size: 48px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+.how_it_works .texts p{
+    font-size: 20px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.how_it_works .columns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.how_it_works .columns .first_column{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    text-align: left;
+    background-color: white;
+    padding: 35px 15px;
+    width: 31%;
+    border: 1px solid #6666661b;
+}
+.how_it_works .columns .first_column .icon{
+    width: 43px;
+    height: 43px;
+}
+.how_it_works .columns .first_column .text{
+    text-align: left;
+    gap: 22px;
+}
+.how_it_works .columns .first_column .text h2{
+    margin-bottom: 22px;
+    color: #222222;
+    font-size: 22px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.how_it_works .columns .first_column .text p{
+    color: #666666;
+    font-size: 14px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.begin{
+    position: relative;
+}
+.begin .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.5rem;
+    width: 78%;
+}
+.begin .image_container{
+    width: 100%;
+    height: 50vh;
+}
+.begin .image_container img{
+    width: 100%;
+    height: 90vh;
+    
+}
+.begin .content h2{
+    font-size: 48px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.begin .content .text h2 span {
+    background: linear-gradient(to right, #31e5ff 11%, #448fff 50%, #ff82be 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.begin .input form input{
+    
+        
+        height: 60px;
+       width: 400px;
+        padding-left: 24px;
+        border-radius: 66px;
+        border: 0px;
+        align-items: left;
+}
+.begin .input form .button a{
+    
+    padding: 15px 46px;
+    color: white;
+    background-image: linear-gradient(to right, #25f6ff 0%, #7782ff 55%, #ff5196 100%);
+    border-radius: 66px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: grab;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: -10rem;
+    height: 60px;
+}
+.begin .input form{
+    display: flex;
+    margin: 32px 0px;
+    gap: -30rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 15rem;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer .links ul{
+    display: flex;
+    color: #f0ba05;
+    margin-right: 46px;
+    gap: 16px;
+    align-items: right;
+    justify-content: right;
+    
+}
+.footer .links li{
+    list-style: none;
+   
+   
+}
+.footer .links li a{
+    font-size: 24px;
+}
+.footer .links ul li a i{
+    color:#f0ba05;
+    background-color: white;
+}
+
+hr{
+    width: 1110px;
+    height: 0px;
+    color: #f0ba05;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.footer .last_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .last_item .chat{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f0ba05;
+}
+.footer .last_item .chat i{
+    font-size: 24px;
+    color: #f0ba05;
+}
+.footer .last_item .id i{
+    font-size: 24px;
+    color: #f0ba05;
+}
+
+.footer .last_item .id{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
