@@ -524,7 +524,7 @@ nav .home .hamburger i{
         display: flex;
         width: 100%;
         flex-wrap: wrap;
-        height: 100vh;
+        height: 80vh;
         align-items: center;
         justify-content: space-between;
         margin-top: 5rem;
@@ -658,7 +658,7 @@ nav .home .menu ul li a{
     display: block;
 }
 nav{
-    margin: 16px 0;
+    margin: 24px 0;
 }
 nav.active{
     left: 0;
@@ -774,13 +774,12 @@ nav.active{
 }
 @media(max-width:480px){
     .preview{
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 5%;
-       padding: 1rem;
+        gap: 1rem;
        margin: 3rem auto;
        
     }
@@ -808,7 +807,6 @@ nav.active{
         flex-wrap: nowrap;
         gap: 16px;
         align-items: center;
-        margin-bottom: 24px;
         justify-content: center;
     }
     .preview .first .text{
@@ -1044,6 +1042,7 @@ nav.active{
         font-weight: 700;
         font-style: normal;
         width: 100%;
+        letter-spacing: 0.2px;
     }
     .your_one_stop .your_one_stop_text p{
         font-size: 16px;
@@ -1052,12 +1051,12 @@ nav.active{
         font-weight: 400;
         font-style: normal;
         margin-top: 1rem;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.2px;
         width: 100%;
     }
     .your_one_stop .your_one_stop_text .button a{
         margin-top: 4rem;
-        padding: 12px 20px;
+        padding: 12px 40px;
         color: white;
         background-color: #f0ba05;
         border: 1px solid #f0ba05;
@@ -1066,8 +1065,9 @@ nav.active{
         text-decoration: none;
         cursor: grab;
         font-family: "Lato", serif;
-        font-weight: 600;
+        font-weight: 500;
         font-style: normal;
+    
     }
     .your_one_stop .your_one_stop_text .button{
         margin-top: 2rem;
@@ -1386,7 +1386,7 @@ nav.active{
         width: 100%;
         margin: auto;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 10rem;
         margin-bottom: 5rem;
         background-color: #fffdf5;
         padding: 48px;
@@ -1396,7 +1396,7 @@ nav.active{
         flex-basis: 100%;
     }
     .features .image img{
-        height: auto;
+        height: 100%;
         width: 100%;
         object-fit: cover;
     }
@@ -1415,8 +1415,8 @@ nav.active{
     
     }
     .features .text_icon .start .icon img{
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
     .features .text_icon .start .text h2{
         font-size: 16px;
@@ -1435,6 +1435,11 @@ nav.active{
         letter-spacing: 0.5px;
         max-width: 300px;
         
+    }
+    .features .text_icon .start .text{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
     }
 }
 
@@ -1709,10 +1714,10 @@ justify-content: center;
 @media(max-width:480px){
     .about_us{
 
-        padding: 5% 0%;
         position: relative;
         width: 100%;
         height: 90vh;
+        margin-top: 10rem;
         
         
      }
@@ -1725,7 +1730,7 @@ justify-content: center;
         width: 90%;
         margin: auto;
         margin-bottom: 1rem;
-        margin-top: -7.5rem;
+        margin-top: -9.5rem;
         
     
     }
@@ -2037,10 +2042,12 @@ justify-content: center;
     
 }
 @media(max-width:600px){
+
+
     .how_it_works .columns .first_column .text h2{
         margin-bottom: 21px;
         color: #222222;
-        font-size: 18px;
+        font-size: 20px;
         font-family: "Lato", serif;
         font-weight: 550;
         font-style: normal;
@@ -2068,6 +2075,7 @@ justify-content: center;
         font-weight: 700;
         font-style: normal;
         margin-bottom: 1rem;
+        width: 100%;
     }
     .how_it_works .columns{
         display: flex;
@@ -2090,6 +2098,13 @@ justify-content: center;
         width: 100%;
         border: 1px solid #6666661b;
         margin-bottom: 1rem;
+    }
+    .how_it_works{
+        align-items: center;
+        width: 100%;
+        padding: 12% 8%;
+        background-color: #FFFDF5;
+        margin-top: 3rem;
     }
     
 }
@@ -2230,11 +2245,11 @@ justify-content: center;
     }
     .begin .image_container{
         width: 100%;
-        height: 80vh;
+        height: 50vh;
     }
     .begin .image_container img{
         width: 100%;
-        height: 100vh;
+        height: 430px;
         
     }
     .begin .content h2{
@@ -2259,7 +2274,7 @@ justify-content: center;
     color: white;
     background-image: linear-gradient(to right, #25f6ff 0%, #7782ff 55%, #ff5196 100%);
     border-radius: 66px;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     cursor: grab;
     font-family: "Lato", serif;
