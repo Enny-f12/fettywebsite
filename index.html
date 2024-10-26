@@ -13,11 +13,11 @@
         <div class="home">
             <div class="fetty">
                 
-                <li>Fettyexchange.</li>
+                <h1>Fettyexchange.</h1>
         
             </div>
             <div class="menu">
-                <ul>
+                <ul id="menuList">
                 <li>
                     <a href="">Home</a></li>
                 <li>
@@ -25,6 +25,9 @@
                 <li>
                     <a href="">Contact us</a></li>
             </ul>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
             </div>
         </div>
     </nav>
@@ -235,6 +238,19 @@
     </div>
 </section>
 
+<script>
+    let menuList = document.getElementById('menuList')
+    menuList.style.maxHeight = '0px';
 
+    function toggleMenu(){
+        if(menuList.style.maxHeight == '0px')
+    {
+        menuList.style.maxHeight = '300px';
+    }
+    else{
+        menuList.style.maxHeight = '0px'
+    }
+    }
+</script>
 </body>
 </html>
