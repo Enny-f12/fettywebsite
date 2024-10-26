@@ -258,7 +258,7 @@ font-family: "Lato", serif;
     font-style: normal;
 }
 .your_one_stop .your_one_stop_text p{
-    font-size: 18px;
+    font-size: 22px;
     word-wrap: wrap;
     font-family: "Lato", serif;
     font-weight: 400;
@@ -312,14 +312,14 @@ font-family: "Lato", serif;
     flex-basis: 40%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 .features .text_icon .start{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    gap:2rem;
+    gap:3rem;
 
 }
 .features .text_icon .start .icon{
@@ -384,7 +384,7 @@ font-family: "Lato", serif;
 
 }
 .about_us .overlay .text p{
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
@@ -510,7 +510,7 @@ justify-content: center;
     color: #222222;
     font-size: 22px;
     font-family: "Lato", serif;
-    font-weight: 700;
+    font-weight: 550;
     font-style: normal;
 }
 .how_it_works .columns .first_column .text p{
@@ -638,7 +638,7 @@ hr{
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 16px;
+    gap: 8px;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
@@ -657,7 +657,7 @@ hr{
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 16px;
+    gap: 8px;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
