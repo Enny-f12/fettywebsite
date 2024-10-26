@@ -662,14 +662,14 @@ nav .home .hamburger i{
         font-family: "Lato", serif;
         font-weight: 700;
         font-style: normal;
-        margin-top: 7rem;
+        margin-top: 8rem;
     }
     .landingpage .image{
         flex-basis: 100%;
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top: 1rem;
+        margin-top: -1rem;
     
         
     
@@ -1610,7 +1610,7 @@ nav .home{
 }
 .about_us .text{
     align-items: center;
-    margin-top: 0rem;
+    margin-top: -1rem;
 }
 .about_us .text h1{
     font-size: 48px;
@@ -1870,7 +1870,7 @@ justify-content: center;
     
     }
     .about_us .overlay{
-        margin-top: -4rem;
+        margin-top: -5rem;
     }
     .about_us .overlay .text p{
         font-size: 16px;
@@ -2612,9 +2612,12 @@ hr{
         display: flex;
         color: #f0ba05;
         margin-right: 2%;
-        gap: 8px;
+        gap: 12px;
         align-items: right;
         justify-content: right;
         
+    }
+    .footer .links ul li a i{
+        font-size: 24px;
     }
 }
