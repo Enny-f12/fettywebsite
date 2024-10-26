@@ -1730,9 +1730,12 @@ justify-content: center;
         width: 90%;
         margin: auto;
         margin-bottom: 1rem;
-        margin-top: -9.5rem;
+        
         
     
+    }
+    .about_us .overlay{
+        margin-top: -3rem;
     }
     .about_us .overlay .text p{
         font-size: 16px;
@@ -2249,7 +2252,7 @@ justify-content: center;
     }
     .begin .image_container img{
         width: 100%;
-        height: 430px;
+        height: 450px;
         
     }
     .begin .content h2{
