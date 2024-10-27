@@ -419,7 +419,6 @@ nav .home .hamburger i{
 }
 @media(max-width:700px){
     nav .home{
-    
         color: black;
         width: 100%;
         display: flex;
@@ -717,6 +716,21 @@ nav .home .hamburger i{
         font-weight: 700;
         font-style: normal;
         list-style: none;
+    }
+    .landingpage .landing_page_text a{
+        margin-top: 4rem;
+        padding: 12px 20px;
+        color: #f0ba05;
+        border: 1px solid #f0ba05;
+        border-radius: 10px;
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Lato", serif;
+        font-weight: 600;
+        font-style: normal;
+        display: block;
+        width: 50%;
     }
     .landingpage .landing_page_text .button{
         margin-top: 3rem;
